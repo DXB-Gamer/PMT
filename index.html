@@ -10,7 +10,7 @@
   <style>
     :root {
       --black:#080808;--dark:#101010;--surface:#181818;--surface2:#202020;--surface3:#282828;
-      --border:#2a2a2a;--muted:#555;--white:#f0f0eb;--white-dim:#999;
+      --border:#2a2a2a;--muted:#777;--white:#ffffff;--white-dim:#bbbbbb;
       /* NOTE: orange=blue, blue=orange per design spec */
       --orange:#3b82f6;   /* shows as blue visually */
       --green:#22c55e;
@@ -197,8 +197,8 @@
       --surface3:#e0e0e0;
       --border:#d0d0d0;
       --muted:#888888;
-      --white:#1a1a2e;
-      --white-dim:#444466;
+      --white:#000000;
+      --white-dim:#333333;
       --accent-blue:#2563eb;
       --accent-green:#22c55e;
       --accent-orange:#f97316;
@@ -206,6 +206,7 @@
       --yellow:#eab308;
       --purple:#7c3aed;
       --cyan:#06b6d4;
+      --muted:#555555;
     }
     body.light .topbar { background: rgba(245,245,245,0.97); }
     body.light .card { box-shadow: 0 1px 4px rgba(0,0,0,0.07); }
@@ -285,7 +286,7 @@
   <div class="logo">
     <div class="logo-mark" id="logoMark"><img src="data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAgACADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAcIBAX/xAAlEAABBAICAwABBQAAAAAAAAABAgMEBQYRAAcSEyExFBUiI5H/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AjLhxsde4phD+DQcjySnyexbm3bdKVwZzUb1vLSpf9LZacL3ikIJKlN/XEpAP1XGFN6T6roo2ei/vck8MImxv1c2OpnxmIf8AMojNN+Px0D1pK1K0FKP8QE/QmXhx+9t9E0lFQW2VY1lSBEj1kK2bpJoK5zUWQW0bcWkBAUHFkBP5IH+4xjXTFZ1PAzSdW5zYJl2i61omdGiqfLbQW46lsNuBKAVBIBWo739+cDhu9pKqOpMJx3DptnU3tTJsJFlKa02lanlp9ZQoHZIQkAnQ1oa5nqs7oz0tOw+4/dpFvZ5WzazpKSFB2MlrxUFLKvJThUpR0R+dEniy4cCg7juDr24l9kuW9Pfy2MisITsCO0W2kuxYgPqjPK8iWkbCCfAKOhoaI3xf57mdPcdRde4dVsympNAmwcsS4gBtx2Q+FpKTslWkp19A1vX3i84cD//Z" style="width:28px;height:28px;object-fit:cover;border-radius:5px;"></div>
     <div class="logo-text">Pocket Money Tracker</div>
-    <div class="logo-badge">v2.0</div>
+    <div class="logo-badge">v2.1.2</div>
   </div>
   <div class="nav-tabs">
     <button class="nav-tab active" onclick="showPage('dashboard')">📊 <span>Dashboard</span></button>
